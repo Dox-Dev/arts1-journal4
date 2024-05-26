@@ -1,4 +1,9 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script lang="ts">
+	import Hero from "$lib/Hero.svelte";
+</script>
+
+<Hero/>
 
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-5">
