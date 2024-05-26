@@ -82,7 +82,7 @@
 <h1 class="h1 px-5 pt-5">Art Gallery</h1>
 <p class="px-5 pt-5">
 	Note that these images (as well as the card components themselves) were taken from the <a href="https://www.skeleton.dev/elements/image-layouts" target="_blank" class="underline">SkeletonUI</a> website,
-	which directly attributes these image layouts to <a href="https://flowbite.com" target="_blank">Flowbite</a>.
+	which directly attributes these image layouts to <a href="https://flowbite.com" target="_blank" class="underline">Flowbite</a>.
 </p>
 <div class="p-5">
 	<section class="grid grid-cols-2 md:grid-cols-4 gap-2">
