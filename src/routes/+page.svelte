@@ -132,3 +132,46 @@
 		</div>
 	</section>
 </div>
+
+
+
+
+<h1 class="h1 px-5 pt-5">Art Tutorials</h1>
+<!--
+<p class="px-5 pt-5">Note that these images (as well as the card components themselves) were taken from the <a href="https://www.skeleton.dev/elements/image-layouts" target="_blank" class="underline">SkeletonUI</a> website.</p>
+-->
+<div class="p-5">
+	<Accordion>
+		<AccordionItem>
+			<svelte:fragment slot="lead"><i class="fa-solid fa-spray-can"></i></svelte:fragment>
+			<svelte:fragment slot="summary">Spray Painting/Graffiti Art</svelte:fragment>
+			<svelte:fragment slot="content">This is where guides for spray painting will be placed in.</svelte:fragment>
+		</AccordionItem>
+		<AccordionItem>
+			<svelte:fragment slot="lead"><i class="fa-solid fa-palette"></i></svelte:fragment>
+			<svelte:fragment slot="summary">Traditional Painting</svelte:fragment>
+			<svelte:fragment slot="content">This is where guides for traditional painting will be placed in.</svelte:fragment>
+		</AccordionItem>
+		<AccordionItem>
+			<svelte:fragment slot="lead"><i class="fa-solid fa-person"></i></svelte:fragment>
+			<svelte:fragment slot="summary">Sculpting</svelte:fragment>
+			<svelte:fragment slot="content">This is where guides for sculpting will be placed in.</svelte:fragment>
+		</AccordionItem>
+		<AccordionItem>
+			<svelte:fragment slot="lead"><i class="fa-solid fa-tablet"></i></svelte:fragment>
+			<svelte:fragment slot="summary">Digital Art</svelte:fragment>
+			<svelte:fragment slot="content">This is where guides for digital art will be placed in.</svelte:fragment>
+		</AccordionItem>
+		<AccordionItem>
+			<svelte:fragment slot="lead"><i class="fa-solid fa-camera"></i></svelte:fragment>
+			<svelte:fragment slot="summary">Photography</svelte:fragment>
+			<svelte:fragment slot="content">This is where guides for photography will be placed in.</svelte:fragment>
+		</AccordionItem>
+		<AccordionItem>
+			<svelte:fragment slot="lead"><i class="fa-solid fa-video"></i></svelte:fragment>
+			<svelte:fragment slot="summary">Videography/Film</svelte:fragment>
+			<svelte:fragment slot="content">This is where guides for film will be placed in.</svelte:fragment>
+		</AccordionItem>
+		<!-- ... -->
+	</Accordion>
+</div>
